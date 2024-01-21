@@ -1,84 +1,70 @@
-﻿## ![Papers We Love](http://paperswelove.org/images/logo-top.svg)
-
- [![Discord](https://img.shields.io/static/v1?label=Discord&message=join%20us!&color=mediumslateblue)](https://discord.gg/Tu2VynkRWV)
-
-**Papers We Love** (*PWL*) is a community built around reading, discussing and learning more about academic computer science papers. This repository serves as a directory of some of the best papers the community can find, bringing together documents scattered across the web. You can also visit the [Papers We Love site](http://paperswelove.org/) for more info.
-
-Due to [licenses](https://github.com/papers-we-love/papers-we-love/blob/master/.github/CONTRIBUTING.md#respect-content-licenses) we cannot always host the papers themselves (when we do, you will see a :scroll: emoji next to its title in the directory README) but we can provide links to their locations.
-
-If you enjoy the papers, perhaps stop by a local chapter meetup and join in on the vibrant discussions around them. You can also discuss *PWL* events, the content in this repository, and/or anything related to *PWL* on our [Discord](https://discord.gg/Tu2VynkRWV) server.
-
-### Chapters
-
-Let us know if you are interested in [starting one](https://github.com/papers-we-love/organizers) in your city!
-
-All of our meetups follow our [Code of Conduct](CODE_OF_CONDUCT.md).
-
-### Past Presentations
-
-Check out our [YouTube](https://www.youtube.com/user/PapersWeLove) channel for videos and video playlists.
-
-## Info
-
-We're looking for pull requests related to papers we should add, better organization of the papers we do have, and/or links to other paper-repos we should point to.
-
-### Other Good Places to Find Papers
-
-* [2 Minute Papers](https://www.youtube.com/user/keeroyz)
-* [Bell System Technical Journal, 1922-1983](https://www.bell-labs.com/our-research/technical-journal/)
-* [Best Paper Awards in Computer Science](http://jeffhuang.com/best_paper_awards.html)
-* [Facebook](https://research.facebook.com/publications/)
-* [Google Scholar](http://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng) (choose a subcategory)
-* [Microsoft Research](https://www.microsoft.com/en-us/research/publications/)
-* [Functional Programming Books Review](http://alexott.net/en/fp/books/)
-* [MIT's Artificial Intelligence Lab Publications](http://dspace.mit.edu/handle/1721.1/39813)
-* [MIT's Distributed System's Reading Group](http://dsrg.pdos.csail.mit.edu/)
-* [arXiv Paper Repository](http://arxiv.org/)
-* [SciRate](https://scirate.com/)
-* [cat-v.org](http://doc.cat-v.org/)
-* [y-archive](http://yarchive.net/comp/index.html)
-* [netlib](http://www.netlib.org/)
-* [Services Engineering Reading List](https://github.com/mmcgrana/services-engineering)
-* [Readings in Distributed Systems](http://christophermeiklejohn.com/distributed/systems/2013/07/12/readings-in-distributed-systems.html)
-* [Gradual Typing Bibliography](http://samth.github.io/gradual-typing-bib/)
-* [Security Data Science Papers](http://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/)
-* [Research Papers from Robert Harper, Carnegie Mellon University](https://www.cs.cmu.edu/~rwh/papers/index.html)
-* [Lobste.rs tagged as PDF](https://lobste.rs/t/pdf)
-* [The Morning Paper](http://blog.acolyer.org/)
-
-Please check out our [wiki-page](https://github.com/papers-we-love/papers-we-love/wiki/Other-Good-Sources-of-Reading-Material) for links to blogs, books, exchanges that are worth a good read.
-
-### How To Read a Paper
-
-Reading a paper is not the same as reading a blogpost or a novel. Here are a few handy resources to help you get started.
-
-* [How to read an academic article](http://organizationsandmarkets.com/2010/08/31/how-to-read-an-academic-article/)
-* [Advice on reading academic papers](https://userpages.umbc.edu/~akmassey/posts/2012-02-15-advice-on-reading-academic-papers.html)
-* [How to read and understand a scientific paper](http://violentmetaphors.com/2013/08/25/how-to-read-and-understand-a-scientific-paper-2/)
-* [Should I Read Papers?](http://michaelrbernste.in/2014/10/21/should-i-read-papers.html)
-* [The Refreshingly Rewarding Realm of Research Papers](https://www.youtube.com/watch?v=8eRx5Wo3xYA)
-* [How to read a paper](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf)
-
-### Applications/Ideas built around Papers We Love
-
-* Love a Paper - [@loveapaper](https://twitter.com/loveapaper)
-
-### Download papers
-
-Open your favourite terminal and run:
-
-```bash
-$ ./scripts/download.sh
-```
-
-This will scrape markdown files for links to PDFs and download papers to their respective directories.
-
-See [README.md](./scripts/README.md) for more options.
-
-## Contributing Guidelines
-
-Please take a look at our [CONTRIBUTING.md](https://github.com/papers-we-love/papers-we-love/blob/master/.github/CONTRIBUTING.md) file.
-
-## Copyright
-
-The name "Papers We Love" and the logos for the organization are copyrighted, and under the ownership of Papers We Love Ltd, all rights reserved. When starting a chapter, please review [our guidelines](https://github.com/papers-we-love/papers-we-love/wiki/Creating-a-PWL-chapter) and ask us about using the logo.
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><h2 tabindex="-1" dir="auto"><a id="" class="anchor" aria-hidden="true" tabindex="-1" href="#"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/7a03dd7fe56510c6709d1a50cc9c830cb777af5890f436178787bfa0580e7937/687474703a2f2f70617065727377656c6f76652e6f72672f696d616765732f6c6f676f2d746f702e737667"><img src="https://camo.githubusercontent.com/7a03dd7fe56510c6709d1a50cc9c830cb777af5890f436178787bfa0580e7937/687474703a2f2f70617065727377656c6f76652e6f72672f696d616765732f6c6f676f2d746f702e737667" alt="我们喜欢的论文" data-canonical-src="http://paperswelove.org/images/logo-top.svg" style="max-width: 100%;"></a></h2>
+<p dir="auto"><a href="https://discord.gg/Tu2VynkRWV" rel="nofollow"><img src="https://camo.githubusercontent.com/3ec52a213ce72c75c732c30beef3daf00fd15d06eb521eb017dfcede638d5cf4/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f6c6162656c3d446973636f7264266d6573736167653d6a6f696e25323075732126636f6c6f723d6d656469756d736c617465626c7565" alt="不和谐" data-canonical-src="https://img.shields.io/static/v1?label=Discord&amp;message=join%20us!&amp;color=mediumslateblue" style="max-width: 100%;"></a></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Papers We Love</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ( </font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PWL</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ) 是一个围绕阅读、讨论和了解有关计算机科学学术论文的更多信息而建立的社区。</font><font style="vertical-align: inherit;">该存储库充当社区可以找到的一些最佳论文的目录，将分散在网络上的文档汇集在一起&ZeroWidthSpace;&ZeroWidthSpace;。</font><font style="vertical-align: inherit;">您还可以访问</font></font><a href="http://paperswelove.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Papers We Love 网站</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解更多信息。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于</font></font><a href="https://github.com/papers-we-love/papers-we-love/blob/master/.github/CONTRIBUTING.md#respect-content-licenses"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许可证</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的原因，我们不能总是自行托管论文（当我们这样做时，您会在 README 目录中的标题旁边看到一个 📜 表情符号），但我们可以提供其位置的链接。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您喜欢这些论文，也许可以参加当地的分会聚会，并加入围绕这些论文的激烈讨论。</font><font style="vertical-align: inherit;">您还可以</font><font style="vertical-align: inherit;">在我们的</font><a href="https://discord.gg/Tu2VynkRWV" rel="nofollow"><font style="vertical-align: inherit;">Discord服务器上讨论</font></a></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PWL</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">事件、此存储库中的内容和/或与</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PWL</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相关的任何内容。</font></font><a href="https://discord.gg/Tu2VynkRWV" rel="nofollow"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-chapters" class="anchor" aria-hidden="true" tabindex="-1" href="#chapters"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">章节</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您有兴趣在您的城市</font></font><a href="https://github.com/papers-we-love/organizers"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创办一个，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请告诉我们！</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们所有的聚会都遵循我们的</font></font><a href="/papers-we-love/papers-we-love/blob/main/CODE_OF_CONDUCT.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">行为准则</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-past-presentations" class="anchor" aria-hidden="true" tabindex="-1" href="#past-presentations"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">过去的演讲</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看我们的</font></font><a href="https://www.youtube.com/user/PapersWeLove" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">YouTube</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">频道以获取视频和视频播放列表。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-info" class="anchor" aria-hidden="true" tabindex="-1" href="#info"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">信息</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们正在寻找与我们应该添加的论文相关的拉取请求，更好地组织我们现有的论文，和/或我们应该指向的其他论文存储库的链接。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-other-good-places-to-find-papers" class="anchor" aria-hidden="true" tabindex="-1" href="#other-good-places-to-find-papers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他寻找论文的好地方</font></font></h3>
+<ul dir="auto">
+<li><a href="https://www.youtube.com/user/keeroyz" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2分钟论文</font></font></a></li>
+<li><a href="https://www.bell-labs.com/our-research/technical-journal/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贝尔系统技术杂志，1922-1983</font></font></a></li>
+<li><a href="http://jeffhuang.com/best_paper_awards.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">计算机科学最佳论文奖</font></font></a></li>
+<li><a href="https://research.facebook.com/publications/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Facebook</font></font></a></li>
+<li><a href="http://scholar.google.com/citations?view_op=top_venues&amp;hl=en&amp;vq=eng" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谷歌学术</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（选择一个子类别）</font></font></li>
+<li><a href="https://www.microsoft.com/en-us/research/publications/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">微软研究院</font></font></a></li>
+<li><a href="http://alexott.net/en/fp/books/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数式编程书评</font></font></a></li>
+<li><a href="http://dspace.mit.edu/handle/1721.1/39813" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">麻省理工学院人工智能实验室出版物</font></font></a></li>
+<li><a href="http://dsrg.pdos.csail.mit.edu/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">麻省理工学院分布式系统阅读小组</font></font></a></li>
+<li><a href="http://arxiv.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">arXiv 论文存储库</font></font></a></li>
+<li><a href="https://scirate.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">科学率</font></font></a></li>
+<li><a href="http://doc.cat-v.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">猫诉组织</font></font></a></li>
+<li><a href="http://yarchive.net/comp/index.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Y-档案</font></font></a></li>
+<li><a href="http://www.netlib.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网络库</font></font></a></li>
+<li><a href="https://github.com/mmcgrana/services-engineering"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">服务工程阅读清单</font></font></a></li>
+<li><a href="http://christophermeiklejohn.com/distributed/systems/2013/07/12/readings-in-distributed-systems.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分布式系统读物</font></font></a></li>
+<li><a href="http://samth.github.io/gradual-typing-bib/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">渐进打字参考书目</font></font></a></li>
+<li><a href="http://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安全数据科学论文</font></font></a></li>
+<li><a href="https://www.cs.cmu.edu/~rwh/papers/index.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">卡内基梅隆大学罗伯特·哈珀的研究论文</font></font></a></li>
+<li><a href="https://lobste.rs/t/pdf" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lobste.rs 标记为 PDF</font></font></a></li>
+<li><a href="http://blog.acolyer.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">晨报</font></font></a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请查看我们的</font></font><a href="https://github.com/papers-we-love/papers-we-love/wiki/Other-Good-Sources-of-Reading-Material"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">维基页面，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取值得一读的博客、书籍、交流的链接。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-how-to-read-a-paper" class="anchor" aria-hidden="true" tabindex="-1" href="#how-to-read-a-paper"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何阅读论文</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读论文与阅读博客文章或小说不同。</font><font style="vertical-align: inherit;">这里有一些方便的资源可以帮助您入门。</font></font></p>
+<ul dir="auto">
+<li><a href="http://organizationsandmarkets.com/2010/08/31/how-to-read-an-academic-article/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何阅读学术文章</font></font></a></li>
+<li><a href="https://userpages.umbc.edu/~akmassey/posts/2012-02-15-advice-on-reading-academic-papers.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读学术论文的建议</font></font></a></li>
+<li><a href="http://violentmetaphors.com/2013/08/25/how-to-read-and-understand-a-scientific-paper-2/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何阅读和理解科学论文</font></font></a></li>
+<li><a href="http://michaelrbernste.in/2014/10/21/should-i-read-papers.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我应该阅读论文吗？</font></font></a></li>
+<li><a href="https://www.youtube.com/watch?v=8eRx5Wo3xYA" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">研究论文的令人耳目一新的回报领域</font></font></a></li>
+<li><a href="http://ccr.sigcomm.org/online/files/p83-keshavA.pdf" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何阅读论文</font></font></a></li>
+</ul>
+<h3 tabindex="-1" dir="auto"><a id="user-content-applicationsideas-built-around-papers-we-love" class="anchor" aria-hidden="true" tabindex="-1" href="#applicationsideas-built-around-papers-we-love"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">围绕我们喜欢的论文构建的应用程序/想法</font></font></h3>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">爱一篇论文 - </font></font><a href="https://twitter.com/loveapaper" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@loveapaper</font></font></a></li>
+</ul>
+<h3 tabindex="-1" dir="auto"><a id="user-content-download-papers" class="anchor" aria-hidden="true" tabindex="-1" href="#download-papers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载论文</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打开您最喜欢的终端并运行：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>$ ./scripts/download.sh</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="$ ./scripts/download.sh" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将抓取 Markdown 文件中的 PDF 链接并将论文下载到各自的目录中。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多选项，</font><font style="vertical-align: inherit;">请参阅</font></font><a href="/papers-we-love/papers-we-love/blob/main/scripts/README.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">README.md 。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-contributing-guidelines" class="anchor" aria-hidden="true" tabindex="-1" href="#contributing-guidelines"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献指南</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请查看我们的</font></font><a href="https://github.com/papers-we-love/papers-we-love/blob/master/.github/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CONTRIBUTING.md</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-copyright" class="anchor" aria-hidden="true" tabindex="-1" href="#copyright"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版权</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“Papers We Love”名称和该组织的徽标受版权保护，归 Papers We Love Ltd 所有，保留所有权利。</font><font style="vertical-align: inherit;">开始章节时，请查看</font></font><a href="https://github.com/papers-we-love/papers-we-love/wiki/Creating-a-PWL-chapter"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们的指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并询问我们有关使用徽标的信息。</font></font></p>
+</article></div>
